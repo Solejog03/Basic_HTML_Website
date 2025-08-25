@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Basic HTML Website</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Contact Page for a simple HTML-only website for roadmap.sh frontend project" />
+    <meta name="keywords" content="Frontend Project, HTML, Roadmap.sh" />
+    <meta name="author" content="Lokesh Gurjar" />
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="Projects.html">
+                        Projects
+                    </a>
+                </li>
+
+                <li>
+                    <a href="Contact.html">
+                        Contact
+                    </a>
+                </li>
+
+                <li>
+                    <a href="Articles.html">
+                        Articles
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+    
+    <main>
+        <section class="Contact">
+        <h1>Contact Me</h1>
+        <form action="action.php" method="POST">
+            <label for="username">Username:</label>
+            <input type="text" id="username" required>
+
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <br><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" rows="5" cols="20" required></textarea>
+
+            <br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        &copy; all rights reserved 2025
+    </footer>
+</body>
+</html>
